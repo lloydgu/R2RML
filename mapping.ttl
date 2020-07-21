@@ -22,7 +22,8 @@ map:basicQuery a rr:LogicalTable;
     rr:sqlQuery """SELECT ID as id, 
 questioncode as question_code, 
 questionnaire as questionnairename, 
-Baseline as baseline, T3w as three_weeks, 
+Baseline as baseline, 
+T3w as three_weeks, 
 T3m as three_months, 
 T6m as six_months,
 T1j as one_year
